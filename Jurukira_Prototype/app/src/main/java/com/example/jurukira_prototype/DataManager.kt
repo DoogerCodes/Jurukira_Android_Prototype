@@ -11,4 +11,8 @@ object DataManager{
     fun getCompanyList(): Array<CompanyModel>{
         return listOf_Company
     }
+
+    fun getCompanyTitles(): List<String>{
+        return listOf(company1.title, company2.title, company3.title, company4.title)
+    }
 }
